@@ -17,6 +17,7 @@ print(Porter_Stemmer.stem(input1)) #output: classif
 #%%
 
 #tüm diller için snowballstemmer kutuphanesi
+import nltk
 from snowballstemmer import TurkishStemmer
 
 turk_stemmer = TurkishStemmer()
