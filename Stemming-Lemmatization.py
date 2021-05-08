@@ -4,10 +4,8 @@ Created on Sun May  9 01:33:36 2021
 
 @author: Linda
 """
-#örnek : kitaplıklar
+
 #1)stemming(gövdeleme) 
-
-
 
 import nltk
 from nltk.stem.porter import *
@@ -30,9 +28,8 @@ print(turk_stemmer.stemWord(input3)) #output : kalemlik
 
 #%%
 
+
 #2)lemmatization(baş sözcük çıkarma)
- 
-  
 import spacy
 nlp = spacy.load('en_core_web_sm')
 input4 = nlp('classifications')
