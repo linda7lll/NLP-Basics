@@ -21,12 +21,12 @@ for sentence in sentences:
  
 #word tokenization/kelime tokenize etme
 
-# import nltk    
-# from nltk import word_tokenize
-# text = ["bir avuntu, biraz keder."]
-# sentences = word_tokenize(text)
-# for sentence in sentences:
-#     print(sentence)
+import nltk    
+from nltk import word_tokenize
+text = ["bir avuntu, biraz keder."]
+sentences = word_tokenize(text)
+for sentence in sentences:
+    print(sentence)
     
 
 
