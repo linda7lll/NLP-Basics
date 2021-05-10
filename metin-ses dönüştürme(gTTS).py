@@ -12,3 +12,6 @@ import os #işletim sistemindeki dosyalara erişim için
 
 gTTS(text = "Bugün yapay zekanın kötü bir süper zeka olmasından endişelenmek, Mars’taki aşırı nüfus artışından endişelenmek gibidir.", lang = "tr", slow = False).save("text.mp3")
 os.system("start text.mp3")
+
+
+
